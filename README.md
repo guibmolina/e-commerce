@@ -1,4 +1,4 @@
-# Shop  e-commerce
+# E-commerce
 Um simples e-commmerce
 ### Funcionalidades
   - Cadastrar produtos e gerenciar estoque (com usuários admin)
