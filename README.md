@@ -14,7 +14,8 @@ No projeto foram usadas as seguintes ferramentas:
  
 ### Observações
   - Esse projeto foi desenvolvido mais como um meio de consolidar os conhecimentos obtidos
-    -  Rodar a migração das tabelas
+  
+  - Rodar a migração das tabelas
   ```sh
 $ php artisan migrate
 ```
