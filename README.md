@@ -14,6 +14,10 @@ No projeto foram usadas as seguintes ferramentas:
  
 ### Observações
   - Esse projeto foi desenvolvido mais como um meio de consolidar os conhecimentos obtidos
+    -  Rodar a migração das tabelas
+  ```sh
+$ php artisan migrate
+```
   -  Ao inserir um produto com uma imagem e ela não aparecer na tela de inicio rodar a seguinte linha no terminal:
   ```sh
 $ php artisan storage:link
