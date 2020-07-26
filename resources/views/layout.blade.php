@@ -60,13 +60,6 @@
   @include('mensagem',['mensagem' => $mensagem ?? ''])
 @yield('content')
 
-  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy; Mercadinho do Zé</small>
-    </div>
-  </footer>
-
-
 </body>
 
 </html>

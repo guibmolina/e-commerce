@@ -42,15 +42,6 @@
               <span class="text-muted">R$ {{number_format($total, 2, ',', '.')}}</span>
             </li>
           </ul>
-
-          <form class="card p-2" action="{{route('shop.buyItem')}}" method="POST">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Código promocional">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-secondary">Resgatar</button>
-              </div>
-            </div>
-          </form>
         </div>
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Endereço de cobrança</h4>

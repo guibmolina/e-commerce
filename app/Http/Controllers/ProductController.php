@@ -16,21 +16,6 @@ class ProductController extends Controller
      * @param Request $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index(Item $item, Request $request)
-    {
-        $category = $item->categories()->first();
-        return view('shop.item', [
-            'item' => $item,
-            'category' => $category,
-            'mensagem' => $request->session()->get('mensagem'),
-        ]);
-    }
-
-    /**
-     * @param Item $item
-     * @param Request $request
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
     public function checkout(Item $item, Request $request)
     {
         return view('shop.checkout', [

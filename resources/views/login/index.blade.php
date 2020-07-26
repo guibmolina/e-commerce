@@ -10,13 +10,13 @@
     </div>
     <div class="form-group">
         <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" name="password" id="inputPassword" required min="1" class="form-control" placeholder="Senha" required">
+        <input type="password" name="password" id="inputPassword" required min="1" class="form-control" placeholder="Senha" required>
     </div>
     <button type="submit" class="btn btn-primary mt-3">
         Entrar
     </button>
 
-    <a href="/signingup" class="btn btn-secondary mt-3">
+    <a href="/register" class="btn btn-secondary mt-3">
         Registrar-se
     </a>
 </form>

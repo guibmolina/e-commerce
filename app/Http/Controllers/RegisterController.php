@@ -20,6 +20,6 @@ class RegisterController extends Controller
         $data['password'] = Hash::make($data['password']);
         $user = User::create($data);
         Auth::login($user);
-        return redirect()->route('shop');
+        return redirect()->route('shop.index');
     }
 }

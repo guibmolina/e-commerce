@@ -46,7 +46,6 @@
             </div>
         </div>
         <div class="row">
-          <a href='https://teams.microsoft.com/l/chat/0/0?users=28:6ea83f19-c823-446b-9786-b492d6f23d53'><img src='https://dev.botframework.com/Client/Images/Add-To-MSTeams-Buttons.png'/></a>
           @if($items)
             @foreach ($items as $item)
           <div class="col-lg-4 col-md-6 mb-4">
@@ -54,7 +53,7 @@
             <a href="#"><img class="card-img-top" src={{$item->cover_url}} alt="{{$item->filename}}"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                <a href="/product/{{$item->id}}">{{$item->title}}</a>
+                {{$item->title}}
                 </h4>
               <h5>R${{number_format($item->price, 2, ',', '.')}}</h5>
               <p class="card-text">{{$item->description}}</p>
